@@ -1,0 +1,34 @@
+<div class="carousel-container">
+        <div class="slider-parkes">
+          <div class="slider-item">
+            <img src="img/main.jpg" class="slider-image" alt="">
+            <div class="slider-text">
+              Main cabin
+            </div>
+          </div>
+          <div class="slider-item">
+            <img src="img/stove.jpg" class="slider-image" alt="">
+            <div class="slider-text">
+              Stove
+            </div>
+          </div>
+          <div class="slider-item">
+            <img src="img/toilet.jpg" class="slider-image" alt="">
+            <div class="slider-text">
+              Toilet room
+            </div>
+          </div>
+          <div class="slider-item">
+            <img src="img/wide.jpg" class="slider-image" alt="">
+            <div class="slider-text">
+              Shelving and bedroom
+            </div>
+          </div>
+          <div class="slider-item">
+            <img src="img/barometer.jpg" class="slider-image" alt="">
+            <div class="slider-text">
+              Barometer
+            </div>
+          </div>
+        </div>
+      </div>

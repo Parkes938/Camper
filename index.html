@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Repurposed Cabin Camper</title>
+    <meta charset="UTF-8">
+    <title>by Tom</title>
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+    <script src="https://use.fontawesome.com/10386a299c.js"></script>
+    <link rel="shortcut icon" href="img/Main.jpg" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="stylesheets/screen.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112635987-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112635987-1');
+</script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type='text/javascript' src="scripts/script.js"></script>
+    <script type="text/javascript" src="slick/slick.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+<style>
+      html {
+        background: url("img/main.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+	  
+	  @media screen and (max-width: 500px) {
+	  html {
+        background: url("img/out.jpg") no-repeat center center fixed;
+		background-size: auto 100%;
+		
+       }
+      }
+    </style>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  </head>
+  <body id="body">
+  <script>
+    $.get("nav.html", function(data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+<div id="nav-placeholder"></div>
+  <script>
+    $(function() {
+      $('#nav-home').addClass("active");
+    });
+  </script>
+	
+      <nav class="navbar navbar-inverse navbar-fixed top">
+	  <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+         </button>
+        <a class="navbar-brand logo">Camper</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse in" aria-expanded="true" style="">
+        <ul class="nav navbar-nav">
+	  
+         <li id="nav-data" class="">
+              <a href="./index.html">Home</a>
+            </li>
+            <li id="nav-data" class="">
+              <a href="./Gallery.html">Gallery</a>
+            </li>
+			<li id="nav-data" class="">
+              <a href="./Contact.html" >Contact</a>
+            </li>
+			
+            </div>
+			</li>
+			</ul>
+			</div>
+			
+			</nav>
+      
+
+    <div id="spacer-div"></div>
+
+    <div id="intro-background">
+      <div id="title1-light">Repurposed Camper Cabin</div>
+      <div class="narrow-content" style="color:#ffffff">A DIY carpentry build</div>
+    </div>
+
+    <div id="content-background">
+      <div id="title1">Reclaimed unwanted furniture</div>
+
+      <div class='container2'>
+        <div class="col1">
+          <i class="fa fa-truck fa-5x" style="color:#00bcd4"></i>
+          <h2>A DIY carpentry build</h2>
+          <div>A simple collection of shots from my latest camper build to put some ideas and inspiration out there that others may want to use to get enthusiastic about creating their own space and learn how to do it.
+		  <br>
+		  <br>
+		  80% of the wood used to make this van came from old unwanted furniture</div>
+          <p style="margin-top:1em">
+		  
+		  <script>
+          $('#flipto').on("click", function(event) {
+  event.preventDefault();
+  
+  var face = $(this).data("face");
+  
+  if ( face == "bottom" ) {
+    $(".cube").removeClass("flip-to-top").addClass("flip-to-bottom");
+    $(this).data("face", "top").text("Flip: to top");
+  } else {
+    $(".cube").removeClass("flip-to-bottom").addClass("flip-to-top");
+    $(this).data("face", "bottom").text("Flip: to bottom");
+  }
+});
+          </script>
+          
+          <div class="cube flip-to-top">
+      <div class="default-state">
+            <span>Look inside...</span>
+      </div>
+      <div class="active-state">
+        <a href="./Gallery.html">Gallery</a>
+    </div>
+</div>
+		  
+		  </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="footer-background">
+      <p>
+        <span style="font: 3.5em 'Oswald', sans-serif">
+          Adventure Camper
+        </span>
+        <br>
+        Repurposed caprentry project
+      </p>
+
+      
+
+    </div>
+    <div class="grid-wide-center">
+      <h6>Published Feb 2020</h6>
+    </div>
+  </body>
+</html>
